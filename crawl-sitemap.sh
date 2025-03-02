@@ -1,5 +1,20 @@
 #!/usr/bin/env bash
 
+# recall cmds:
+
+# declare myrand="$((RANDOM))-azure-business-continuity-center"; cd
+# ~/org/stash/stash2/ && mkdir -p "$myrand" && cd "$myrand" && gauw
+# $URL >
+# currentstash-"$myrand" && parallel h2o :::: currentstash-"$myrand" && updatedb
+# -l 0 -o ${HOME}/org/stash/plocate.db -U ${HOME}/org/stash
+
+# declare myrand="$((RANDOM))-aws-ecs"; cd ~/org/stash/stash2/ && mkdir -p
+# "$myrand" && cd "$myrand" && h2o-sitemap
+# https://docs.aws.amazon.com/AmazonECS/latest/developerguide/sitemap.xml &&
+# updatedb -l 0 -o ${HOME}/org/stash/plocate.db -U ${HOME}/org/stash
+
+# alias gauw="gau --threads 80 --fc 404 --mt text/html"
+
 # * signals
 
 function clean-htmls() {
